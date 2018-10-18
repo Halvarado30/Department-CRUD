@@ -50,11 +50,11 @@
     <Compile Include="FrmAgregarDepartamento.Designer.cs">
       <DependentUpon>FrmAgregarDepartamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEditarDepartamento.cs">
+    <Compile Include="FrmActualizarDepartamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEditarDepartamento.Designer.cs">
-      <DependentUpon>FrmEditarDepartamento.cs</DependentUpon>
+    <Compile Include="FrmActualizarDepartamento.Designer.cs">
+      <DependentUpon>FrmActualizarDepartamento.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEliminarDepartamento.cs">
       <SubType>Form</SubType>
@@ -78,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAgregarDepartamento.resx">
       <DependentUpon>FrmAgregarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmActualizarDepartamento.resx">
+      <DependentUpon>FrmActualizarDepartamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

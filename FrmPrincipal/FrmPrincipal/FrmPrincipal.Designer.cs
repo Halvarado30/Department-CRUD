@@ -68,6 +68,7 @@
             this.btnActualizarDepartamento.TabIndex = 2;
             this.btnActualizarDepartamento.Text = "Actualizar";
             this.btnActualizarDepartamento.UseVisualStyleBackColor = true;
+            this.btnActualizarDepartamento.Click += new System.EventHandler(this.btnActualizarDepartamento_Click);
             // 
             // btnCrearDepartamento
             // 

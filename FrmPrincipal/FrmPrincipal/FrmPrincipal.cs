@@ -27,5 +27,11 @@ namespace FrmPrincipal
         {
             this.Close();
         }
+
+        private void btnActualizarDepartamento_Click(object sender, EventArgs e)
+        {
+            FrmActualizarDepartamento actualizar = new FrmActualizarDepartamento();
+            this.ShowDialog();
+        }
     }
 }
