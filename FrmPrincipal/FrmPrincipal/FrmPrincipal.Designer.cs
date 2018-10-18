@@ -33,6 +33,7 @@
             this.btnActualizarDepartamento = new System.Windows.Forms.Button();
             this.btnCrearDepartamento = new System.Windows.Forms.Button();
             this.btnListarDepartamento = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.gbPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,6 +77,7 @@
             this.btnCrearDepartamento.TabIndex = 1;
             this.btnCrearDepartamento.Text = "Crear Departamento";
             this.btnCrearDepartamento.UseVisualStyleBackColor = true;
+            this.btnCrearDepartamento.Click += new System.EventHandler(this.btnCrearDepartamento_Click);
             // 
             // btnListarDepartamento
             // 
@@ -86,11 +88,23 @@
             this.btnListarDepartamento.Text = "Listar Departamentos";
             this.btnListarDepartamento.UseVisualStyleBackColor = true;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(501, 341);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(153, 47);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 354);
+            this.ClientSize = new System.Drawing.Size(706, 410);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.gbPrincipal);
             this.Name = "FrmPrincipal";
             this.Text = "Operaciones CRUD con departamentos Adventure Works";
@@ -106,6 +120,7 @@
         private System.Windows.Forms.Button btnActualizarDepartamento;
         private System.Windows.Forms.Button btnCrearDepartamento;
         private System.Windows.Forms.Button btnListarDepartamento;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

@@ -44,6 +44,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAgregarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarDepartamento.Designer.cs">
+      <DependentUpon>FrmAgregarDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarDepartamento.Designer.cs">
+      <DependentUpon>FrmEditarDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarDepartamento.Designer.cs">
+      <DependentUpon>FrmEliminarDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListarDepartamento.Designer.cs">
+      <DependentUpon>FrmListarDepartamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregarDepartamento.resx">
+      <DependentUpon>FrmAgregarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>

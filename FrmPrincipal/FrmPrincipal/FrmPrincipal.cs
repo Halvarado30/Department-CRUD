@@ -16,5 +16,16 @@ namespace FrmPrincipal
         {
             InitializeComponent();
         }
+
+        private void btnCrearDepartamento_Click(object sender, EventArgs e)
+        {
+            FrmAgregarDepartamento crear = new FrmAgregarDepartamento();
+            crear.ShowDialog();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
