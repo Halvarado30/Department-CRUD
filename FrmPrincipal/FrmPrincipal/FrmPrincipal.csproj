@@ -82,6 +82,12 @@
     <EmbeddedResource Include="FrmActualizarDepartamento.resx">
       <DependentUpon>FrmActualizarDepartamento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarDepartamento.resx">
+      <DependentUpon>FrmEliminarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListarDepartamento.resx">
+      <DependentUpon>FrmListarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>

@@ -31,7 +31,19 @@ namespace FrmPrincipal
         private void btnActualizarDepartamento_Click(object sender, EventArgs e)
         {
             FrmActualizarDepartamento actualizar = new FrmActualizarDepartamento();
-            this.ShowDialog();
+            actualizar.ShowDialog();
+        }
+
+        private void btnListarDepartamento_Click(object sender, EventArgs e)
+        {
+            FrmListarDepartamento listar = new FrmListarDepartamento();
+            listar.ShowDialog();
+        }
+
+        private void btnEliminarDepartamento_Click(object sender, EventArgs e)
+        {
+            FrmEliminarDepartamento eliminar = new FrmEliminarDepartamento();
+            eliminar.ShowDialog();
         }
     }
 }

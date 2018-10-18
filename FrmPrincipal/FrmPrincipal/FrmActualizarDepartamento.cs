@@ -55,7 +55,7 @@ namespace FrmPrincipal
                     cmd.Parameters["@Nombre"].Value = txtNombreDepto.Text;
 
                     cmd.Parameters.Add(new SqlParameter("@Descripcion", SqlDbType.NVarChar, 50));
-                    cmd.Parameters["@Description"].Value = txtDecripcionDepto.Text;
+                    cmd.Parameters["@Descripcion"].Value = txtDecripcionDepto.Text;
 
                     cmd.Parameters.Add(new SqlParameter("@FechaM", SqlDbType.DateTime));
                     cmd.Parameters["@FechaM"].Value = dtpFechaDepto.Value;
@@ -71,6 +71,7 @@ namespace FrmPrincipal
                     txtCodigoDepto.Text = "";
                     txtNombreDepto.Text = "";
                     txtDecripcionDepto.Text = "";
+                    txtCodigoDepto.Focus();
                 }
                 catch (SqlException ex)
                 {
